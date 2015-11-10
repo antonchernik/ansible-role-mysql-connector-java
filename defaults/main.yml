@@ -1,0 +1,8 @@
+---
+# defaults file for mysql_connector_java
+
+mysql_connector_java_archive: /tmp/mysql-connector-java-5.1.37.tar.gz
+mysql_connector_java_dest: /tmp
+mysql_connector_java_jar: mysql-connector-java-5.1.37-bin.jar
+mysql_connector_java_sha256: 01e2f104c169863b4937a77045b008a372e5e254b803f69f030986167e626824
+mysql_connector_java_url: http://cdn.mysql.com/Downloads/Connector-J/mysql-connector-java-5.1.37.tar.gz
