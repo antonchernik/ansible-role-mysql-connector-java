@@ -1,5 +1,4 @@
 ---
 # roles file for mysql_connector_java
 
-- src: https://github.com/pantarei/ansible-role-mysql-connector-java
-  name: mysql_connector_java
+- src: hswong3i.mysql_connector_java
