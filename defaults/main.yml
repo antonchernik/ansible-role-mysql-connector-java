@@ -1,5 +1,5 @@
 ---
-# defaults file for mysql_connector_java
+# defaults file for hswong3i.mysql_connector_java
 
 mysql_connector_java_archive: /tmp/mysql-connector-java-5.1.37.tar.gz
 mysql_connector_java_dest: /tmp
