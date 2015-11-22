@@ -6,10 +6,10 @@
     url={{ mysql_connector_java_url }}
     dest={{ mysql_connector_java_archive }}
     sha256sum={{ mysql_connector_java_sha256 }}
-  tags: mysql_connector_java
+  tags: hswong3i.mysql_connector_java
 
 - name: unarchive package
   shell: TMP_DIR=`mktemp -d`; tar zxvf {{ mysql_connector_java_archive }} -C $TMP_DIR --strip-components=1; cp $TMP_DIR/{{ mysql_connector_java_jar }} {{ mysql_connector_java_dest }}/{{ mysql_connector_java_jar }}
   args:
     creates: "{{ mysql_connector_java_dest }}/{{ mysql_connector_java_jar }}"
-  tags: mysql_connector_java
+  tags: hswong3i.mysql_connector_java
