@@ -6,7 +6,7 @@ Ansible Role for MySQL Connector/J
  [![GitHub license](https://img.shields.io/github/license/pantarei/ansible-role-mysql-connector-java.svg)](https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/LICENSE)
  [![Ansible Role](https://img.shields.io/ansible/role/5979.svg)](https://galaxy.ansible.com/detail#/role/5979)
 
-Ansible Role for Ubuntu MySQL Connector/J Initialization.
+Ansible Role for Ubuntu MySQL Connector/J Installation.
 
 Requirements
 ------------
@@ -39,7 +39,7 @@ Role Variables
 <tr class="odd">
 <td align="left">mysql_connector_java_archive</td>
 <td align="left">yes</td>
-<td align="left">/tmp/mysql-connector-java-5.1.37.tar.gz</td>
+<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
 <td align="left"></td>
 <td align="left">Download archive filename for cache during (re)install.</td>
 </tr>
@@ -53,21 +53,21 @@ Role Variables
 <tr class="odd">
 <td align="left">mysql_connector_java_jar</td>
 <td align="left">yes</td>
-<td align="left">mysql-connector-java-5.1.37-bin.jar</td>
+<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
 <td align="left"></td>
 <td align="left">MySQL Connector/J .jar filename for double check if installed to target directory correctly.</td>
 </tr>
 <tr class="even">
 <td align="left">mysql_connector_java_sha256</td>
 <td align="left">yes</td>
-<td align="left">01e2f104c169863b4937a77045b008a372e5e254b803f69f030986167e626824</td>
+<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
 <td align="left"></td>
 <td align="left">Download archive sha256 checksum for cache during (re)install.</td>
 </tr>
 <tr class="odd">
 <td align="left">mysql_connector_java_url</td>
 <td align="left">yes</td>
-<td align="left">http://cdn.mysql.com/Downloads/Connector-J/mysql-connector-java-5.1.37.tar.gz</td>
+<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
 <td align="left"></td>
 <td align="left">URL for download archive.</td>
 </tr>
@@ -77,7 +77,7 @@ Role Variables
 Dependencies
 ------------
 
--   [hswong3i.java](https://galaxy.ansible.com/detail#/role/5971)
+-   [hswong3i.java](https://github.com/pantarei/ansible-role-java)
 
 Example Playbook
 ----------------
@@ -89,7 +89,7 @@ Example Playbook
 License
 -------
 
--   Code released under [MIT](https://github.com/hswong3i/ansible-role-mysql-connector-java/blob/master/LICENSE)
+-   Code released under [MIT](https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/LICENSE)
 -   Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 Author Information
