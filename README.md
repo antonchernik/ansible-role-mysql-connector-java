@@ -6,7 +6,7 @@ Ansible Role for MySQL Connector/J
  [![GitHub license](https://img.shields.io/github/license/pantarei/ansible-role-mysql-connector-java.svg)](https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/LICENSE)
  [![Ansible Role](https://img.shields.io/ansible/role/5979.svg)](https://galaxy.ansible.com/detail#/role/5979)
 
-Ansible Role for Ubuntu MySQL Connector/J Initialization.
+Ansible Role for Ubuntu MySQL Connector/J Installation.
 
 Requirements
 ------------
