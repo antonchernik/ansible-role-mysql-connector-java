@@ -77,7 +77,7 @@ Role Variables
 Dependencies
 ------------
 
--   [hswong3i.java](https://github.com/pantarei/ansible-role-java)
+No additional role dependencies.
 
 Example Playbook
 ----------------

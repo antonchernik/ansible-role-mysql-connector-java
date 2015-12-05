@@ -11,5 +11,4 @@ galaxy_info:
     - trusty
   categories:
   - system
-dependencies:
-  - hswong3i.java
+dependencies: []
