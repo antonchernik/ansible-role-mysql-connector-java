@@ -9,7 +9,7 @@
   tags: hswong3i.mysql_connector_java
 
 - name: unarchive package
-  shell:
+  shell: |
     TMP_DIR=`mktemp -d`
     tar zxvf /tmp/{{ mysql_connector_java_archive }} -C $TMP_DIR --strip-components=1
     cp $TMP_DIR/{{ mysql_connector_java_jar }} {{ mysql_connector_java_dest }}/{{ mysql_connector_java_jar }}
