@@ -28,48 +28,48 @@ Role Variables
 </colgroup>
 <thead>
 <tr class="header">
-<th align="left">parameter</th>
-<th align="left">required</th>
-<th align="left">default</th>
-<th align="left">choices</th>
-<th align="left">comments</th>
+<th>parameter</th>
+<th>required</th>
+<th>default</th>
+<th>choices</th>
+<th>comments</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">mysql_connector_java_archive</td>
-<td align="left">yes</td>
-<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
-<td align="left"></td>
-<td align="left">Download archive filename for cache during (re)install.</td>
+<td>mysql_connector_java_archive</td>
+<td>yes</td>
+<td><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
+<td></td>
+<td>Download archive filename for cache during (re)install.</td>
 </tr>
 <tr class="even">
-<td align="left">mysql_connector_java_dest</td>
-<td align="left">yes</td>
-<td align="left">/tmp</td>
-<td align="left"></td>
-<td align="left">Destination directory where MySQL Connector/J .jar should install to.</td>
+<td>mysql_connector_java_dest</td>
+<td>yes</td>
+<td>/tmp</td>
+<td></td>
+<td>Destination directory where MySQL Connector/J .jar should install to.</td>
 </tr>
 <tr class="odd">
-<td align="left">mysql_connector_java_jar</td>
-<td align="left">yes</td>
-<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
-<td align="left"></td>
-<td align="left">MySQL Connector/J .jar filename for double check if installed to target directory correctly.</td>
+<td>mysql_connector_java_jar</td>
+<td>yes</td>
+<td><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
+<td></td>
+<td>MySQL Connector/J .jar filename for double check if installed to target directory correctly.</td>
 </tr>
 <tr class="even">
-<td align="left">mysql_connector_java_sha256</td>
-<td align="left">yes</td>
-<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
-<td align="left"></td>
-<td align="left">Download archive sha256 checksum for cache during (re)install.</td>
+<td>mysql_connector_java_sha256</td>
+<td>yes</td>
+<td><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
+<td></td>
+<td>Download archive sha256 checksum for cache during (re)install.</td>
 </tr>
 <tr class="odd">
-<td align="left">mysql_connector_java_url</td>
-<td align="left">yes</td>
-<td align="left"><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
-<td align="left"></td>
-<td align="left">URL for download archive.</td>
+<td>mysql_connector_java_url</td>
+<td>yes</td>
+<td><a href="https://github.com/pantarei/ansible-role-mysql-connector-java/blob/master/defaults/main.yml">defaults/main.yml</a></td>
+<td></td>
+<td>URL for download archive.</td>
 </tr>
 </tbody>
 </table>
@@ -96,6 +96,6 @@ Author Information
 ------------------
 
 -   Wong Hoi Sing Edison
-    -   <https://twitter.com/hswong3i>
-    -   <https://github.com/hswong3i>
+    -   <a href="https://twitter.com/hswong3i" class="uri" class="uri">https://twitter.com/hswong3i</a>
+    -   <a href="https://github.com/hswong3i" class="uri" class="uri">https://github.com/hswong3i</a>
 
