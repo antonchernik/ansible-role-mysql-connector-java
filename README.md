@@ -71,6 +71,13 @@ Role Variables
 <td></td>
 <td>URL for download archive.</td>
 </tr>
+<tr class="even">
+<td>mysql_connector_java_user</td>
+<td>yes</td>
+<td>jira</td>
+<td></td>
+<td>Username for destination directory and extracted .jar.</td>
+</tr>
 </tbody>
 </table>
 
