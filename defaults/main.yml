@@ -2,7 +2,8 @@
 # defaults file for hswong3i.mysql_connector_java
 
 mysql_connector_java_archive: "mysql-connector-java-5.1.38.tar.gz"
+mysql_connector_java_checksum: "sha256:fa6232a0bcf67dc7d9acac9dc58910644e50790cbd8cc2f854e2c17f91b2c224"
 mysql_connector_java_dest: "/tmp/mysql-connector-java"
 mysql_connector_java_jar: "mysql-connector-java-5.1.38-bin.jar"
-mysql_connector_java_checksum: "sha256:fa6232a0bcf67dc7d9acac9dc58910644e50790cbd8cc2f854e2c17f91b2c224"
 mysql_connector_java_url: "http://cdn.mysql.com/Downloads/Connector-J/{{ mysql_connector_java_archive }}"
+mysql_connector_java_user: "root"
