@@ -88,9 +88,11 @@ No additional role dependencies.
 Example Playbook
 ----------------
 
-    - hosts: servers
+    - hosts: all
       roles:
-        - { role: hswong3i.mysq_connector_java, mysql_connector_java_dest: '/usr/share/jira/lib' }
+        - role: hswong3i.mysq_connector_java
+          mysql_connector_java_dest: "/tmp/ansible-role-mysql-connector-java"
+          mysql_connector_java_user: "root"
 
 License
 -------
