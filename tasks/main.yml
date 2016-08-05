@@ -3,13 +3,13 @@
 
 - name: prepare files
   file:
-    path: "{{ item.path }}"
+    dest: "{{ item.dest }}"
     owner: "{{ item.owner }}"
     group: "{{ item.group }}"
     mode: "{{ item.mode }}"
     state: "{{ item.state }}"
   with_items:
-    - { path: "{{ mysql_connector_java_dest }}", owner: "{{ mysql_connector_java_user }}", group: "{{ mysql_connector_java_user }}", mode: "0755", state: "directory" }
+    - { dest: "{{ mysql_connector_java_dest }}", owner: "{{ mysql_connector_java_user }}", group: "{{ mysql_connector_java_user }}", mode: "0755", state: "directory" }
   tags: hswong3i.mysql_connector_java
 
 - name: download package
