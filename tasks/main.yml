@@ -14,9 +14,11 @@
 
 - name: download package
   get_url:
-    url: "{{ mysql_connector_java_url }}"
-    dest: "/tmp/{{ mysql_connector_java_archive }}"
-    checksum: "{{ mysql_connector_java_checksum }}"
+    url: "{{ item.url }}"
+    dest: "{{ item.dest }}"
+    checksum: "{{ item.checksum }}"
+  with_items:
+    - { url: "{{ mysql_connector_java_url }}", dest: "/tmp/{{ mysql_connector_java_archive }}", checksum: "{{ mysql_connector_java_checksum }}" }
   tags: hswong3i.mysql_connector_java
 
 - name: unarchive package
