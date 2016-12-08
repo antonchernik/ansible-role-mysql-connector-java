@@ -6,7 +6,7 @@ mysql_connector_java_dest: ~
 mysql_connector_java_user: ~
 
 # optional variables with default
-mysql_connector_java_archive: "mysql-connector-java-5.1.39.tar.gz"
-mysql_connector_java_checksum: "sha256:fa1bdc9ee5323642c5a533fa73fbcf537b26a979e5981c486c24256c433c7718"
-mysql_connector_java_jar: "mysql-connector-java-5.1.39-bin.jar"
+mysql_connector_java_archive: "mysql-connector-java-5.1.40.tar.gz"
+mysql_connector_java_checksum: "sha256:668330de57485999cdbbcad22ea21159a0fc3711f11ccbca7b12b65195fa7539"
+mysql_connector_java_jar: "mysql-connector-java-5.1.40-bin.jar"
 mysql_connector_java_url: "http://cdn.mysql.com/Downloads/Connector-J/{{ mysql_connector_java_archive }}"
